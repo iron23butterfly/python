@@ -13,6 +13,11 @@ print ('|{:26}|'.format('26 charaters width'))
 print ('|{}|'.format('26 charaters width'))
 print ('|{:54}|'.format('26 charaters width'))
 print ('|{:3}|'.format('26 charaters width'))
+
+print('|1 is {} {}|'.format(8, 9))
+print('|2 is {1} {0}|'.format(8, 9))
+print('|3 is {0:>9} {1:10}|'.format(8, 9))
+
 z = 10
 y = "something %d" %z
 print (y)
@@ -43,6 +48,12 @@ print ('z1: ' + z1)
 # |26 charaters width|
 # |26 charaters width                                    |
 # |26 charaters width|
+
+# OUTPUT:
+# |1 is 8 9|
+# |2 is 9 8|
+# |3 is         8          9|
+
 # something 10
 # somethinf 10.000000
 # somethinf 10.00
