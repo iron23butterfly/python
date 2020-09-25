@@ -21,6 +21,13 @@ print (y)
 y = "somethinf %.2f" %z
 print (y)
 
+print('Hello, World.')
+x1 = 'Ram'
+y1 = 'Seeta {}'.format(x1)
+print ('y1:' + y1)
+z1 = f'Seeta {x1}'
+print ('z1: ' + z1)
+
 # OUTPUT
 # <class 'str'>
 # <class 'str'>
@@ -38,3 +45,7 @@ print (y)
 # something 10
 # somethinf 10.000000
 # somethinf 10.00
+
+# Hello, World.
+# y1:Seeta Ram
+# z1: Seeta Ram
