@@ -27,6 +27,7 @@ y1 = 'Seeta {}'.format(x1)
 print ('y1:' + y1)
 z1 = f'Seeta {x1}'
 print ('z1: ' + z1)
+# both .format() and f' {} ' are the same
 
 # OUTPUT
 # <class 'str'>
