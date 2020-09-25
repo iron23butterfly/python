@@ -2,8 +2,9 @@ class Duck:
     def quack(self):
         print('Quaaack!')
 
+    walking = 'Walks like a duck.'
     def walk(self):
-        print('Walks like a duck.')
+        print(self.walking)
 
 def main():
     donald = Duck()
