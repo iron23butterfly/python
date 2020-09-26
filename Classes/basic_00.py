@@ -1,19 +1,25 @@
-class Duck:
-    def quack(self):
-        print('Quaaack!')
+from Ex_Files_Python_EssT.ExerciseFiles.Chap09.constructor import Animal
 
-    walking = 'Walks like a duck.'
-    def walk(self):
-        print(self.walking)
+class Duck:
+    sound = 'Quack quack.'
+    movement = 'Walks like a duck.'
+
+    def quack(self):
+        print(self.sound)
+
+    def move(self):
+        print(self.movement)
 
 def main():
     donald = Duck()
     donald.quack()
-    donald.walk()
+    donald.move()
+    print('_name' in dir(Animal))
 
 if __name__ == '__main__': main()
 
 
 # OUTPUT
-# Quaaack!
+# Quack quack.
 # Walks like a duck.
+# False
