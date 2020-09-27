@@ -2,7 +2,7 @@ str1 = "SriGaneshaayaNamaha\nSrRamajayam"
 str3 = "------------------------------"
 
 name = input('Enter your name')
-str2 = "hello {}!!! My name is Sandhya Ram".format(name)
+str2 = "hello {}!!! My name is Iron23Butterly".format(name)
 list_str = str2.split('!')
 print (list_str)
 
