@@ -1,8 +1,10 @@
 def main():
     try:
         x = int('foo')
-    except:
+    except ValueError:
         print('I caught an error using exceptions!')
+    except:
+        print('Spend you time learning or praying!!')
 
 if __name__ == '__main__': main()
 
